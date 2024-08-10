@@ -18,7 +18,7 @@ const EquipoListado = ({equipo =''}) => {
             {
                 "Edad": 18,
                 "Rol": "Líder & Front/Back-End Developer",
-                "Nombre": "Fernando Guevara",
+                "Nombre": "Fernando Guevara hola",
                 "Correo": 'agu.guevara2006@gmail.com',
                 "Linkedin": "https://www.linkedin.com/in/fernando-guevara-28264330a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                 "Insta": ""
