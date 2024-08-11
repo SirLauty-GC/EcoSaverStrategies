@@ -4,7 +4,7 @@ import LogosLinkedinIcon from '../../img/logos/LogosLinkedinIcon.png';
 
 const EquipoListado = ({equipo =''}) => {
     const EquipoInformacion = {
-        'DiseñoGrafico' : [
+        'Diseño.Grafico' : [
             {
                 "Edad": 17,
                 "Rol": "Líder",
@@ -12,20 +12,36 @@ const EquipoListado = ({equipo =''}) => {
                 "Correo": 'alejoelrasta2007@gmail.com',
                 "Linkedin": "https://www.linkedin.com/in/alejo-schverdfinger-00783b30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                 "Insta": "alejo_00011DG"
+            },
+            {
+                "Edad": 17,
+                "Rol": "Diseño Gráfico",
+                "Nombre": "Cristian Mamani",
+                "Correo": 'cristianmamani347@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/cristian-esteban-mamani-aparicio-984a0230b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": "cristian18511"
+            },
+            {
+                "Edad": 17,
+                "Rol": "Creador de imagenes",
+                "Nombre": "Diego Salas",
+                "Correo": 'Lautarosalas181@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/diego-salas-1095522b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": ""
             }
         ],
         'Software' : [
             {
                 "Edad": 18,
                 "Rol": "Líder & Front/Back-End Developer",
-                "Nombre": "Fernando Guevara hola",
+                "Nombre": "Fernando Guevara",
                 "Correo": 'agu.guevara2006@gmail.com',
                 "Linkedin": "https://www.linkedin.com/in/fernando-guevara-28264330a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                 "Insta": ""
             },
             {
                 "Edad": 17,
-                "Rol": "Front-End Developer",
+                "Rol": "Líder & Front-End Developer",
                 "Nombre": "Lautaro Caylá",
                 "Correo": 'caylalautaro@gmail.com',
                 "Linkedin": "https://www.linkedin.com/in/lautaro-caylá-84677727b/",
@@ -78,6 +94,14 @@ const EquipoListado = ({equipo =''}) => {
                 "Correo": 'Matinovaldivia1@gmail.com',
                 "Linkedin": "https://www.linkedin.com/in/matias-valdivia-94a5b4216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                 "Insta": "Mati.valdiviaa"
+            },
+            {
+                "Edad": 17,
+                "Rol": "Back-End Developer",
+                "Nombre": "Tiziano Bellene",
+                "Correo": 'bellenetiziano@gmail.com',
+                "Linkedin": "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
+                "Insta": "tizibellene"
             }
         ],
         'Comercial' : [
@@ -88,14 +112,6 @@ const EquipoListado = ({equipo =''}) => {
                 "Correo": 'eunimontiveros@gmail.com',
                 "Linkedin": "https://www.linkedin.com/in/eunice-naomi-montiveros-22926b30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                 "Insta": "euni_monti_"
-            },
-            {
-                "Edad": 17,
-                "Rol": "Community Mánager",
-                "Nombre": "Martín Rodríguez",
-                "Correo": 'martinrodriguezcoria12@gmail.com',
-                "Linkedin": "https://www.linkedin.com/in/mart%C3%ADn-rodr%C3%ADguez-coria?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                "Insta": "maaaarodriguez"
             }
         ],
         'Hardware' : [
@@ -122,6 +138,14 @@ const EquipoListado = ({equipo =''}) => {
                 "Correo": 'Ariaslautaro57@gmail.com',
                 "Linkedin": "https://www.linkedin.com/in/lautaro-agustin-arias-53175a172?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                 "Insta": "lautyagus"
+            },
+            {
+                "Edad": 17,
+                "Rol": "Programador",
+                "Nombre": "Leonardo Olguin",
+                "Correo": 'leonardoalexolguin28@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/leonardo-olguin-865a0730b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": "l.olguinn"
             }
         ]
     };
@@ -130,7 +154,7 @@ const EquipoListado = ({equipo =''}) => {
 
     return(
         <>
-            <h3 className="text-3xl text-marca-verdeoscuro">{equipo}</h3>
+            <h3 className="text-3xl text-marca-verdeoscuro">{equipo.replace(/\./g, ' ')}</h3>
             <div id={equipo} className="shadow-md rounded-2xl grid items-center">
                 <table>
                     <thead className='bg-marca-gris rounded-2xl text-white'>
