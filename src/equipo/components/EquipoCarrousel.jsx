@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import ArgCampeon from '../../img/equipo/arg-campeon.jpg';
-import BilardoChampagne from '../../img/equipo/bilardo-champagne.jpg';
-import RandomBullshitGo from '../../img//equipo/random-bullshit-go.jpg';
-import Ratoncito from '../../img/equipo/ratoncito.jpg';
+import ArgCampeon from '../../img/equipo/presentacion-el-paseo.jpg';
+import BilardoChampagne from '../../img/equipo/presentacion-escenario.jpg';
+import RandomBullshitGo from '../../img//equipo/presentacion-3er-episodio.jpg';
+import Ratoncito from '../../img/equipo/foto-progreso.jpg';
 
 const images = [
   ArgCampeon,
@@ -23,7 +23,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto overflow-hidden">
+    <div className="relative w-full max-w-4xl mx-auto overflow-hidden rounded-3xl">
       <div
         className="flex transition-transform duration-1000"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
