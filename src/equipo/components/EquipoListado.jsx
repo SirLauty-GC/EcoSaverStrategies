@@ -157,11 +157,11 @@ const EquipoListado = ({equipo =''}) => {
                 <table>
                     <thead className='bg-marca-gris rounded-2xl text-white'>
                         <tr>
-                            <th className="w-32 font-bold uppercase text-large">Edad</th>
-                            <th className="w-96 font-bold uppercase text-large">Nombre</th>
-                            <th className="w-60 font-bold uppercase text-large">Rol</th>
-                            <th className="w-60 font-bold uppercase text-large">Redes</th>
-                            <th className="w-60 font-bold uppercase text-large">Correo</th>
+                            <th className="min-w-[90px] font-bold uppercase text-large">Edad</th>
+                            <th className="min-w-[200px] font-bold uppercase text-large">Nombre</th>
+                            <th className="min-w-[250px] font-bold uppercase text-large">Rol</th>
+                            <th className="min-w-[150px] font-bold uppercase text-large">Redes</th>
+                            <th className="min-w-[250px] font-bold uppercase text-large">Correo</th>
                         </tr>
                     </thead>
                     <tbody>
