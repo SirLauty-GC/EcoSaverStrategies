@@ -1,6 +1,4 @@
 import React from "react";
-import LogosInstagramIconBlack from '../../img/logos/LogosInstagramIconBlack.png';
-import LogosLinkedinIcon from '../../img/logos/LogosLinkedinIcon.png';
 
 const EquipoListado = ({equipo =''}) => {
     const EquipoInformacion = {
@@ -174,11 +172,11 @@ const EquipoListado = ({equipo =''}) => {
                                 <td className='py-2 text-tiny font-bold text-center bg-marca-verdeclarito'>{intg.Rol}</td>
                                 <td className='py-2 text-tiny font-bold flex justify-evenly'>
                                     <a href={intg.Linkedin} target="_blank">
-                                        <img src={LogosLinkedinIcon} className="w-4 shadow-md"/>
+                                        <img src={'images/logos/LogosLinkedinIcon.webp'} className="w-4 shadow-md"/>
                                     </a>
                                     {intg.Insta != '' &&
                                         <a href={'https://www.instagram.com/' + intg.Insta} target="_blank">
-                                            <img src={LogosInstagramIconBlack} className="w-4 shadow-md"/>
+                                            <img src={'images/logos/LogosInstagramIconBlack.webp'} className="w-4 shadow-md"/>
                                         </a> ||
                                         <a>
                                             <img className="w-4"/>

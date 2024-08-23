@@ -1,11 +1,11 @@
 import React from 'react';
 import { Outlet, Link, useLocation } from "react-router-dom";
 import Footer from './footer.jsx';
-import Fondo from '../img/mdzFondo.jpg';
 
 function Header() {
   const location = useLocation();
   const path = location.pathname;
+  const Fondo = 'images/inicio/mdzFondo.webp'
 
   let seccion = '';
   if (path === '/') {
