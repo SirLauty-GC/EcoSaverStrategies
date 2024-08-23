@@ -10,14 +10,14 @@ const ProyectoFigura = ({ nombre = '-' }) => {
             slogan: 'Sencillo gestor de stock, para todos',
             infoResumida: 'Es un programa de control de stock el cual almacena los elementos que se agreguen, ya sea de una empresa, supermercado, farmacia, etc.',
             tecnologias: 'Python y MongoDB',
-            srcImg: 'DoctorStock.webp'
+            srcImg: '/images/proyectos/DoctorStock.webp'
         },
         SensArInclusive: {
             nombreProyecto: 'SensAr Inclusive',
             slogan: 'Una alarma para todos',
             infoResumida: 'Es un sistema de seguridad sencillo, para que todas las personas logren entenderlo. Para que las personas con ciertas discapacidades (visuales, auditivas, intelectuales, entre otras) puedan comprender su uso.',
             tecnologias: 'Arduino',
-            srcImg: 'SensARinclusive.webp'
+            srcImg: '/images/proyectos/SensARinclusive.webp'
         }
     };
 
