@@ -2,9 +2,9 @@ import React from "react";
 function Footer(){
     return(
     <>   
-        <footer className='grid md:flex items-center justify-between bg-marca-gris text-white pb-4 px-6 mt-10'>
-            <div>
-                <h4 className="text-center md:text-left">Contactanos:</h4>
+        <footer className='grid sm:flex sm:justify-between bg-marca-gris text-white pb-4 px-6 mt-10'>
+            <div className="grid justify-center">
+                <h4 className="font-bold text-center md:text-left">Contactanos:</h4>
                 <div className="grid mt-1">
                     <div className='flex items-center'>
                         <img className='w-7 mr-1' src={'images/logos/MaterialSymbolsLocationOn.webp'}></img>
@@ -22,7 +22,7 @@ function Footer(){
             </div>
             <div className="grid md:flex md:justify-between">
                 <div className="md:mr-12">
-                    <h4 className="text-center mb-2 md:text-left md:mb-0">Seguinos en nuestras redes</h4>
+                    <h4 className="font-bold text-center mb-2 md:text-left md:mb-0">Seguinos en nuestras redes</h4>
                     <div className="flex justify-around md:grid md:justify-items-center md:mt-1">
                         <div>
                             <a className="text-white text-lg md:no-underline" href="https://www.instagram.com/" target="_blank">
@@ -37,7 +37,7 @@ function Footer(){
                     </div>
                 </div>
                 <div>
-                    <h4 className="text-center mb-2 md:text-left md:mb-0">Mendoza Futura</h4>
+                    <h4 className="font-bold text-center mb-2 md:text-left md:mb-0">Mendoza Futura</h4>
                     <div className="flex justify-around md:grid md:justify-items-center md:mt-1">
                         <div>
                             <a className="text-white text-lg md:no-underline" href="https://www.instagram.com/mendozafutura.comunidad/" target="_blank">
