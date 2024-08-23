@@ -24,9 +24,9 @@ const ProyectoFigura = ({ nombre = '-' }) => {
     const info = ProyectoInformacion[nombre];
 
   return (
-    <div className="flex flex-col relative shadow-medium rounded-xl">
-        <div className="pb-4 overflow-visible w-96">
-            <img alt= { nombre } className="object-cover rounded-xl" src= {info.srcImg}/>
+    <div className="w-[272px] lg:w-[400px] flex flex-col relative shadow-medium rounded-xl">
+        <div className="w-[272px] lg:w-[400px] pb-4 overflow-visible w-96">
+            <img alt= { nombre } className="w-[272px] lg:w-[400px] object-cover rounded-xl" src= {info.srcImg}/>
         </div>
         <div className="pl-4 flex-col items-start">
             <h4 className="font-bold text-large">{info.nombreProyecto}</h4>
