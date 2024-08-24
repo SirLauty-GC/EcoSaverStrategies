@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import ArgCampeon from '../../img/equipo/presentacion-el-paseo.jpg';
-import BilardoChampagne from '../../img/equipo/presentacion-escenario.jpg';
-import RandomBullshitGo from '../../img//equipo/presentacion-3er-episodio.jpg';
-import Ratoncito from '../../img/equipo/foto-progreso.jpg';
+
 
 const images = [
-  ArgCampeon,
-  BilardoChampagne,
-  RandomBullshitGo,
-  Ratoncito,
+  'images/equipo/presentacion-el-paseo.webp',
+  'images/equipo/presentacion-escenario.webp',
+  'images/equipo/presentacion-3er-episodio.webp',
+  'images/equipo/foto-progreso.webp'
 ];
 
 const Carousel = () => {
@@ -23,7 +20,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto overflow-hidden rounded-3xl">
+    <div className="relative mx-auto overflow-hidden w-[272px] h-[94px] sm:w-[592px] sm:h-[205px] md:w-[720px] md:h-[250px] lg:w-[1009px] lg:h-[350px] rounded-xl">
       <div
         className="flex transition-transform duration-1000"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -31,8 +28,8 @@ const Carousel = () => {
         {images.map((image, index) => (
           <img
             key={index}
-            src={image}
-            alt={`Slide ${index}`}
+            src={`${image}`}
+            alt={`Imágen: ${image}`}
             className="w-full flex-shrink-0"
           />
         ))}

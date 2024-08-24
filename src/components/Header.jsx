@@ -1,17 +1,17 @@
 import React from 'react';
 import { Outlet, Link, useLocation } from "react-router-dom";
 import Footer from './footer.jsx';
-import Fondo from '../img/mdzFondo.jpg';
 
 function Header() {
   const location = useLocation();
   const path = location.pathname;
+  const Fondo = 'images/inicio/mdzFondo.webp'
 
   let seccion = '';
   if (path === '/') {
     seccion = (
       <>
-        <div className='md:pt-32 grid justify-center md:flex md:justify-start'>
+        <div className='hidden sm:grid sm:pt-10 md:pt-32 grid justify-center md:flex md:justify-start'>
           <label className='py-2 px-4 text-sm border border-inherit text-white font-bold rounded-xl'>CodeWisperers</label>
         </div>
         <div className='pt-4'>

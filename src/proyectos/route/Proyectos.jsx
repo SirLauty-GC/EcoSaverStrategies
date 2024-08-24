@@ -8,7 +8,7 @@ function proyectos() {
             <div>
                 <h3 className='text-3xl font-medium text-emerald-700'>Proyectos anteriores:</h3>
             </div>
-            <div className='pt-4 flex justify-around'>
+            <div className='pt-4 grid sm:flex justify-around'>
                 <ProyectoFigura nombre='DoctorStock'/>
                 <ProyectoFigura nombre='SensArInclusive'/>
             </div>

@@ -1,7 +1,5 @@
 import React from "react";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
-import DoctorStockImg from '../../img/proyectos/DoctorStock.png';
-import SensARinclusiveImg from '../../img/proyectos/SensARinclusive.png';
 
 const ProyectoFigura = ({ nombre = '-' }) => {
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
@@ -12,23 +10,23 @@ const ProyectoFigura = ({ nombre = '-' }) => {
             slogan: 'Sencillo gestor de stock, para todos',
             infoResumida: 'Es un programa de control de stock el cual almacena los elementos que se agreguen, ya sea de una empresa, supermercado, farmacia, etc.',
             tecnologias: 'Python y MongoDB',
-            srcImg: DoctorStockImg
+            srcImg: '/images/proyectos/DoctorStock.webp'
         },
         SensArInclusive: {
             nombreProyecto: 'SensAr Inclusive',
             slogan: 'Una alarma para todos',
             infoResumida: 'Es un sistema de seguridad sencillo, para que todas las personas logren entenderlo. Para que las personas con ciertas discapacidades (visuales, auditivas, intelectuales, entre otras) puedan comprender su uso.',
             tecnologias: 'Arduino',
-            srcImg: SensARinclusiveImg
+            srcImg: '/images/proyectos/SensARinclusive.webp'
         }
     };
 
     const info = ProyectoInformacion[nombre];
 
   return (
-    <div className="flex flex-col relative shadow-medium rounded-xl">
-        <div className="pb-4 overflow-visible w-96">
-            <img alt= { nombre } className="object-cover rounded-xl" src= {info.srcImg}/>
+    <div className="w-[272px] lg:w-[400px] flex flex-col relative shadow-medium rounded-xl">
+        <div className="w-[272px] lg:w-[400px] pb-4 overflow-visible w-96">
+            <img alt= { nombre } className="w-[272px] lg:w-[400px] object-cover rounded-xl" src= {info.srcImg}/>
         </div>
         <div className="pl-4 flex-col items-start">
             <h4 className="font-bold text-large">{info.nombreProyecto}</h4>

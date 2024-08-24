@@ -1,6 +1,4 @@
 import React from "react";
-import LogosInstagramIconBlack from '../../img/logos/LogosInstagramIconBlack.png';
-import LogosLinkedinIcon from '../../img/logos/LogosLinkedinIcon.png';
 
 const EquipoListado = ({equipo =''}) => {
     const EquipoInformacion = {
@@ -159,11 +157,11 @@ const EquipoListado = ({equipo =''}) => {
                 <table>
                     <thead className='bg-marca-gris rounded-2xl text-white'>
                         <tr>
-                            <th className="w-32 font-bold uppercase text-large">Edad</th>
-                            <th className="w-96 font-bold uppercase text-large">Nombre</th>
-                            <th className="w-60 font-bold uppercase text-large">Rol</th>
-                            <th className="w-60 font-bold uppercase text-large">Redes</th>
-                            <th className="w-60 font-bold uppercase text-large">Correo</th>
+                            <th className="min-w-[90px] font-bold uppercase text-large">Edad</th>
+                            <th className="min-w-[200px] font-bold uppercase text-large">Nombre</th>
+                            <th className="min-w-[250px] font-bold uppercase text-large">Rol</th>
+                            <th className="min-w-[150px] font-bold uppercase text-large">Redes</th>
+                            <th className="min-w-[250px] font-bold uppercase text-large">Correo</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -174,11 +172,11 @@ const EquipoListado = ({equipo =''}) => {
                                 <td className='py-2 text-tiny font-bold text-center bg-marca-verdeclarito'>{intg.Rol}</td>
                                 <td className='py-2 text-tiny font-bold flex justify-evenly'>
                                     <a href={intg.Linkedin} target="_blank">
-                                        <img src={LogosLinkedinIcon} className="w-4 shadow-md"/>
+                                        <img src={'images/logos/LogosLinkedinIcon.webp'} className="w-4 shadow-md"/>
                                     </a>
                                     {intg.Insta != '' &&
                                         <a href={'https://www.instagram.com/' + intg.Insta} target="_blank">
-                                            <img src={LogosInstagramIconBlack} className="w-4 shadow-md"/>
+                                            <img src={'images/logos/LogosInstagramIconBlack.webp'} className="w-4 shadow-md"/>
                                         </a> ||
                                         <a>
                                             <img className="w-4"/>
