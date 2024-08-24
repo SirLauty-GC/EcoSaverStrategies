@@ -1,6 +1,6 @@
 import React from 'react';
 import { CuadroInformacionHome } from '../components/CuadroInformacionHome.jsx';
-import { Cubes } from '../components/Cubes.jsx';
+import { LideresCubos } from '../components/LideresCubos.jsx';
 function home() {
     return(
         <>
@@ -11,11 +11,14 @@ function home() {
                 <div>
                     <CuadroInformacionHome nombre='SobreNosotros' clase='flex flex-row-reverse'/>
                 </div>
-                <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-5 place-items-center'>
-                    <Cubes nombre='LiderSoftware'/>
-                    <Cubes nombre='LiderHardware'/>
-                    <Cubes nombre='LiderComercial'/>
-                    <Cubes nombre='LiderDiseñoGrafico'/>
+                <div className='pt-12'>
+                    <h3 className='text-4xl text-center sm:text-left lg:text-5xl font-medium text-marca-verdeoscuro'>Líderes de nuestro proyecto</h3>
+                </div>
+                <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4 place-items-center'>
+                    <LideresCubos nombre='LiderSoftware'/>
+                    <LideresCubos nombre='LiderHardware'/>
+                    <LideresCubos nombre='LiderComercial'/>
+                    <LideresCubos nombre='LiderDiseñoGrafico'/>
                 </div>
             </div>
         </>

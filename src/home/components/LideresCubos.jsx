@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-export const Cubes = ({ nombre = '' }) => {
+export const LideresCubos = ({ nombre = '' }) => {
     const CuadroInfo = {
         LiderSoftware: {
             titulo: 'Lautaro Caylá',
@@ -32,21 +32,21 @@ export const Cubes = ({ nombre = '' }) => {
     const data = CuadroInfo[nombre];
 
     return(
-        <>  
-            <div className='w-full bg-white rounded-xl shadow-lg grid md:items-center md:space-x-4 md:mb-4 max-w-[300px]'>
-                <div className="service-item flex flex-col justify-center text-center rounded-lg p-6">
-                    <div className="service-icon w-20 h-20 bg-gray-100 rounded-full mx-auto flex items-center justify-center">
-                        <img className="rounded-full" src={data.srcimg} alt={data.nombre} />
-                    </div>
-                    <h5 className="my-3 font-semibold text-lg">{data.titulo}</h5>
-                    <p className="text-gray-600 pb-4">
-                        {data.info}
-                    </p>
-                    <Link to={data.departamento} className="btn px-4 py-2  mt-auto mx-auto bg-marca-verdeoscuro hover:bg-marca-verdeoscuro_hover text-white rounded-md">
-                        Ver mas
-                    </Link>
+        <> 
+        <div className='w-full bg-white rounded-xl shadow-lg grid md:items-center md:space-x-4 md:mb-4 max-w-[300px] min-h-[300px]'>
+            <div className="service-item flex flex-col justify-center text-center rounded-lg p-6">
+                <div className="service-icon w-20 h-20 bg-gray-100 rounded-full mx-auto flex items-center justify-center">
+                    <img className="rounded-full" src={data.srcimg} alt={data.nombre} />
                 </div>
+                <h5 className="my-3 font-semibold text-lg">{data.titulo}</h5>
+                <p className="text-gray-600 pb-4">
+                    {data.info}
+                </p>
+                <Link to={data.departamento} className="btn px-4 py-2  mt-auto mx-auto bg-marca-verdeoscuro hover:bg-marca-verdeoscuro_hover text-white rounded-md">
+                    Ver más
+                </Link>
             </div>
+        </div>
         </>
     );
 };
