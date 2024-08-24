@@ -8,7 +8,7 @@ export const Cubes = ({ nombre = '' , clase = '' }) => {
             srcimg: 'https://media.licdn.com/dms/image/v2/D4D35AQH9kgK5Gmk7-Q/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1722084568790?e=1725120000&v=beta&t=tQ6RZ_bZm2Ltgu-C6gUij1skF98gS7eiP4W-yJp5FJU'
         },
         Secciondos: {
-            titulo: 'Eunise Montiveros',
+            titulo: 'Eunice Montiveros',
             info: 'Lider de departamento comercial',
             srcimg: 'https://media.licdn.com/dms/image/v2/D5635AQHt2rUt-UEtOQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1719671354968?e=1725120000&v=beta&t=NeVZXrPHWYB5CmoetTz0cpPgXiOD6VPnImZHDBkCVeI'
         },
