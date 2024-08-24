@@ -31,21 +31,21 @@ function Header() {
     seccion = (
     <>
       <div className='pt-40'>
-        <p className='pt-2 text-white text-4xl'>Nuestros trabajos</p>
+        <p className='text-center md:text-left pt-2 text-white text-4xl'>Nuestros trabajos</p>
       </div>
     </>);
   } else if (path === '/equipo') {
     seccion = (
     <>
       <div className='pt-40'>
-        <p className='pt-2 text-white text-4xl'>Conocé nuestro equipo</p>
+        <p className='text-center md:text-left pt-2 text-white text-4xl'>Conocé nuestro equipo</p>
       </div>
     </>);
   } else if (path === '/contacto') {
     seccion = (
     <>
       <div className='pt-40'>
-        <p className='pt-2 text-white text-4xl'>¡Contactanos!</p>
+        <p className='text-center md:text-left pt-2 text-white text-4xl'>¡Contactanos!</p>
       </div>
     </>);
   }

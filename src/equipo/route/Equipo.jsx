@@ -7,7 +7,7 @@ function equipo() {
         <>
             <div>
                 <div className='pb-6'>
-                    <ul className='flex flex-wrap space-x-4'>
+                    <ul className='flex flex-wrap justify-center space-x-4'>
                         <li><a href='#Software'><button className='py-2 px-4 bg-marca-verdeoscuro hover:bg-marca-verdeoscuro_hover text-white font-bold rounded-xl transition duration-300'>Software</button></a></li>
                         <li><a href='#Hardware'><button className='py-2 px-4 bg-marca-verdeoscuro hover:bg-marca-verdeoscuro_hover text-white font-bold rounded-xl transition duration-300'>Hardware</button></a></li>
                         <li><a href='#Comercial'><button className='py-2 px-4 bg-marca-verdeoscuro hover:bg-marca-verdeoscuro_hover text-white font-bold rounded-xl transition duration-300'>Comercial</button></a></li>
