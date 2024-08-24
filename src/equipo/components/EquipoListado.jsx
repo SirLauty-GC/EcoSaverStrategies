@@ -30,20 +30,20 @@ const EquipoListado = ({equipo =''}) => {
         ],
         'Software' : [
             {
-                "Edad": 18,
-                "Rol": "Líder & Front/Back-End Developer",
-                "Nombre": "Fernando Guevara",
-                "Correo": 'agu.guevara2006@gmail.com',
-                "Linkedin": "https://www.linkedin.com/in/fernando-guevara-28264330a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                "Insta": ""
-            },
-            {
                 "Edad": 17,
                 "Rol": "Líder & Front-End Developer",
                 "Nombre": "Lautaro Caylá",
                 "Correo": 'caylalautaro@gmail.com',
                 "Linkedin": "https://www.linkedin.com/in/lautaro-caylá-84677727b/",
                 "Insta": "sir_lauty"
+            },
+            {
+                "Edad": 18,
+                "Rol": "Front/Back-End Developer",
+                "Nombre": "Fernando Guevara",
+                "Correo": 'agu.guevara2006@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/fernando-guevara-28264330a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": ""
             },
             {
                 "Edad": 17,
