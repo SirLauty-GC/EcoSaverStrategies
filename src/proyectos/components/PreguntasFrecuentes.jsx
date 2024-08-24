@@ -37,7 +37,7 @@ const PreguntasFrecuentes = () => {
                         <input type='checkbox' id='preguntaCollapsibleHeadFour'></input>
                         <label htmlFor='preguntaCollapsibleHeadFour' className='preguntaCollapsibleHeadFour'>¿Como trabajan nuestros equipos de developers en conjunto?</label>
                         <div className='preguntaRespuesta'>
-                            <p>Nuestros desarrolladores se encuentra separado en varios sectores con tareas especificas, para maximizar la eficiencia de trabajo ante tareas de alta complejidad</p>
+                            <p>Nuestros desarrolladores se encuentra separado en varios sectores con tareas especificas, para maximizar la eficiencia de trabajo ante tareas de alta complejidad.</p>
                         </div>
                     </div>
                 </div>
