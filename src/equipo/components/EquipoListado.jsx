@@ -12,7 +12,7 @@ const EquipoListado = ({equipo =''}) => {
                 "Insta": "alejo_00011DG"
             },
             {
-                "Edad": 17,
+                "Edad": 19,
                 "Rol": "Diseño Gráfico",
                 "Nombre": "Cristian Mamani",
                 "Correo": 'cristianmamani347@gmail.com',
@@ -20,7 +20,7 @@ const EquipoListado = ({equipo =''}) => {
                 "Insta": "cristian18511"
             },
             {
-                "Edad": 17,
+                "Edad": 18,
                 "Rol": "Creador de imagenes",
                 "Nombre": "Diego Salas",
                 "Correo": 'Lautarosalas181@gmail.com',
@@ -138,7 +138,7 @@ const EquipoListado = ({equipo =''}) => {
                 "Insta": "lautyagus"
             },
             {
-                "Edad": 17,
+                "Edad": 20,
                 "Rol": "Programador",
                 "Nombre": "Leonardo Olguin",
                 "Correo": 'leonardoalexolguin28@gmail.com',

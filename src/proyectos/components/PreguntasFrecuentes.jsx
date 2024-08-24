@@ -10,7 +10,7 @@ const PreguntasFrecuentes = () => {
                         <input type='checkbox' id='preguntaCollapsibleHeadOne'></input>
                         <label htmlFor='preguntaCollapsibleHeadOne' className='preguntaCollapsibleHeadOne'>¿Cómo crearon el sitio?</label>
                         <div className='preguntaRespuesta'>
-                            <p>Utilizamos varias tecnologias del momento que convinamos para poder crear nuestra landing page entre el equipo de developers, entre las tecnologias utilizadas se encuentran: TaildWindCSS, React, Node.js, Github</p>
+                            <p>Utilizamos varias tecnologias del momento que combinamos para poder crear nuestra landing page entre el equipo de desarrolladores, entre las tecnologias utilizadas se encuentran: TaildWindCSS, React, Node.js, Github</p>
                         </div>
                     </div>
                 </div>
