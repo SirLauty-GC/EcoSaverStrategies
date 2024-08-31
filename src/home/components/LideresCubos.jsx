@@ -16,10 +16,10 @@ export const LideresCubos = ({ nombre = '' }) => {
             srcimg: 'https://media.licdn.com/dms/image/v2/D4E03AQHqjZYPiq37WA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718264509978?e=1729728000&v=beta&t=HGc4kTIm30s2RI5TQWmRibfUQhtiLivIzlH2LYYSsqk'
         },
         LiderComercial: {
-            titulo: 'Eunice Montiveros',
+            titulo: 'Julián Ferrer',
             info: 'Departamento Comercial',
             departamento: '/equipo#Comercial',
-            srcimg: 'https://media.licdn.com/dms/image/v2/D5635AQHt2rUt-UEtOQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1719671354968?e=1725120000&v=beta&t=NeVZXrPHWYB5CmoetTz0cpPgXiOD6VPnImZHDBkCVeI'
+            srcimg: 'https://media.licdn.com/dms/image/v2/D4E35AQEA3FX6tZ9Oog/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1718457096859?e=1725667200&v=beta&t=9t51kciUF_dJwR5q70U-lovZcjjj6eqbYiHz_wz2BsA'
         },
         LiderDiseñoGrafico: {
             titulo: 'Alejo Schverdfinger',

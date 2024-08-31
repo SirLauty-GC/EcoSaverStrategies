@@ -1,6 +1,7 @@
 import React from 'react';
 import { CuadroInformacionHome } from '../components/CuadroInformacionHome.jsx';
 import { LideresCubos } from '../components/LideresCubos.jsx';
+import { InfoConsumo } from '../components/InfoConsumo.jsx';
 function home() {
     return(
         <>
@@ -19,6 +20,10 @@ function home() {
                     <LideresCubos nombre='LiderHardware'/>
                     <LideresCubos nombre='LiderComercial'/>
                     <LideresCubos nombre='LiderDiseñoGrafico'/>
+                </div>
+                <div className='pt-12'>
+                    <h3 className='text-4xl text-center sm:text-left lg:text-5xl font-medium text-marca-verdeoscuro'>Consumo eléctrico Mendoza 2022</h3>
+                    <InfoConsumo/>
                 </div>
             </div>
         </>

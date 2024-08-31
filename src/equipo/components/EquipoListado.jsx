@@ -104,12 +104,20 @@ const EquipoListado = ({equipo =''}) => {
         ],
         'Comercial' : [
             {
-                "Edad": 17,
+                "Edad": 18,
                 "Rol": "Líder",
+                "Nombre": "Julián Ferrer",
+                "Correo": 'josejulianferrer06@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/juli%C3%A1n-ferrer-84858630a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": "heart_jjf"
+            },
+            {
+                "Edad": 17,
+                "Rol": "Marketing Manager",
                 "Nombre": "Eunice Montiveros",
-                "Correo": 'eunimontiveros@gmail.com',
-                "Linkedin": "https://www.linkedin.com/in/eunice-naomi-montiveros-22926b30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                "Insta": "euni_monti_"
+                "Correo": 'Santinomuoz81@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/marcos-santino-mu%C3%B1oz-a07814312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": "Santino_muoz81"
             }
         ],
         'Hardware' : [
