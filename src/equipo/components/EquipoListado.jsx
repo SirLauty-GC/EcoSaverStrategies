@@ -180,14 +180,14 @@ const EquipoListado = ({equipo =''}) => {
                                 <td className='py-2 text-tiny font-bold text-center bg-marca-verdeclarito'>{intg.Rol}</td>
                                 <td className='py-2 text-tiny font-bold flex justify-evenly'>
                                     <a href={intg.Linkedin} target="_blank">
-                                        <img src='images/logos/LogosLinkedinIcon.webp' className="w-4 shadow-md"/>
+                                        <img alt="Logo LinkedIn icono" src='images/logos/LogosLinkedinIcon.webp' className="w-4 shadow-md"/>
                                     </a>
                                     {intg.Insta != '' &&
                                         <a href={'https://www.instagram.com/' + intg.Insta} target="_blank">
-                                            <img src='images/logos/LogosInstagramIconBlack.webp' className="w-4 shadow-md"/>
+                                            <img alt="Logo Instagram icono" src='images/logos/LogosInstagramIconBlack.webp' className="w-4 shadow-md"/>
                                         </a> ||
                                         <a>
-                                            <img className="w-4"/>
+                                            <img alt="." className="w-4"/>
                                         </a>
                                     }
                                 </td>
