@@ -30,7 +30,7 @@ const Carousel = () => {
             key={index}
             src={`${image}`}
             alt={`Imágen: ${image}`}
-            className="w-full flex-shrink-0"
+            className="w-full h-full flex-shrink-0"
           />
         ))}
       </div>

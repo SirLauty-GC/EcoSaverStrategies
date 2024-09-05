@@ -7,15 +7,15 @@ function Footer(){
                 <h4 className="font-bold text-center md:text-left">Contactanos:</h4>
                 <div className="grid mt-1">
                     <div className='flex items-center'>
-                        <img alt="Logo Símbolo localización icono" className='w-7 mr-1' src={'images/logos/MaterialSymbolsLocationOn.webp'}></img>
+                        <img alt="Logo Símbolo localización icono" className='w-7 h-7 mr-1' src={'images/logos/MaterialSymbolsLocationOn.webp'}></img>
                         <p>Patricias Argentinas 56 - Maipú, Mendoza</p>
                     </div>
                     <div className='flex items-center'>
-                        <img alt="Logo Teléfono icono" className='w-7 mr-1' src={'images/logos/MaterialSymbolsCallSharp.webp'}></img>
+                        <img alt="Logo Teléfono icono" className='w-7 h-7 mr-1' src={'images/logos/MaterialSymbolsCallSharp.webp'}></img>
                         <p>+54 9 261 xxx-xxxx</p>
                     </div>
                     <div className='flex items-center'>
-                        <img alt="Logo Mail icono" className='w-7 mr-1' src={'images/logos/MaterialSymbolsMail.webp'}></img>
+                        <img alt="Logo Mail icono" className='w-7 h-7 mr-1' src={'images/logos/MaterialSymbolsMail.webp'}></img>
                         <p>EcoSaverStrategies@gmail.com</p>
                     </div>
                 </div>
@@ -26,12 +26,12 @@ function Footer(){
                     <div className="flex justify-around md:grid md:justify-items-center md:mt-1">
                         <div>
                             <a className="text-white text-lg md:no-underline" href="https://www.instagram.com/" target="_blank">
-                                <img className="w-24" src={'images/logos/LogosInstagram.webp'} alt="Instagram"></img>
+                                <img className="w-24 h-7" src={'images/logos/LogosInstagram.webp'} alt="Instagram"></img>
                             </a>
                         </div>
                         <div className='md:mt-2'>
                             <a className="text-white text-lg md:no-underline" href="https://www.linkedin.com/groups/14465076/" target="_blank">
-                                <img className="w-24" src={'images/logos/LogosLinkedin.webp'} alt="LinkedIn"></img>
+                                <img className="w-24 h-6" src={'images/logos/LogosLinkedin.webp'} alt="LinkedIn"></img>
                             </a>
                         </div>
                     </div>
@@ -41,12 +41,12 @@ function Footer(){
                     <div className="flex justify-around md:grid md:justify-items-center md:mt-1">
                         <div>
                             <a className="text-white text-lg md:no-underline" href="https://www.instagram.com/mendozafutura.comunidad/" target="_blank">
-                                <img className="w-24" src={'images/logos/LogosInstagram.webp'} alt="Instagram"></img>
+                                <img className="w-24 h-7" src={'images/logos/LogosInstagram.webp'} alt="Instagram"></img>
                             </a>
                         </div>
                         <div className='mt-2'>
                             <a className="text-white text-lg md:no-underline" href="https://www.mendoza.gov.ar/economia/mendoza-futura-2024/" target="_blank">
-                                <img className="w-24" src= {'images/logos/LogosConectadosMendozaFutura.webp'} alt="Conectados por Mendoza Futura"></img>
+                                <img className="w-24 h-5" src= {'images/logos/LogosConectadosMendozaFutura.webp'} alt="Conectados por Mendoza Futura"></img>
                             </a>
                         </div>
                     </div>

@@ -22,7 +22,7 @@ export const CuadroInformacionHome = ({ nombre = '' , clase = '' }) => {
         <>
             <div className={clases}>
                 <div className='shrink-0'>
-                    <img className='w-100% md:w-72 lg:w-96 rounded-tl-3xl rounded-br-3xl' alt='Energia Solar en Mendoza' src={data.srcimg}></img>
+                    <img className='w-100% h-100% md:w-72 lg:w-96 rounded-tl-3xl rounded-br-3xl' alt='Energia Solar en Mendoza' src={data.srcimg}></img>
                 </div>
                 <div>
                     <h3 className='text-4xl text-center sm:text-left lg:text-5xl font-medium text-marca-verdeoscuro'>{data.titulo}</h3>
