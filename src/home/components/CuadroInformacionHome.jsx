@@ -26,7 +26,7 @@ export const CuadroInformacionHome = ({ nombre = '' , clase = '' }) => {
                 </div>
                 <div>
                     <h3 className='text-4xl text-center sm:text-left lg:text-5xl font-medium text-marca-verdeoscuro'>{data.titulo}</h3>
-                    <p className='text-md text-center sm:text-left sm:text-xl text-2xl text-slate-500'>{data.info}</p>
+                    <p className='py-4 text-md text-center sm:text-left sm:text-xl text-2xl text-slate-500'>{data.info}</p>
                 </div>
             </div>
         </>

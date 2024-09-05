@@ -14,7 +14,8 @@ module.exports = {
         marca: {
           marron: '#4D433D',
           gris: '#525C5A',
-          verdeoscuro: '#56877D',
+          verdeoscuro: '#3B5E56',
+          verdeoscurodos: '#56877D',
           verdeoscuro_hover: '#76aaa0',
           verde: '#8CCC81',
           verdeclaro: '#BADE57',

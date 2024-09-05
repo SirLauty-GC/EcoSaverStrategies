@@ -186,9 +186,7 @@ const EquipoListado = ({equipo =''}) => {
                                         <a href={'https://www.instagram.com/' + intg.Insta} target="_blank">
                                             <img alt="Logo Instagram icono" src='images/logos/LogosInstagramIconBlack.webp' className="w-4 shadow-md"/>
                                         </a> ||
-                                        <a>
-                                            <img alt="." className="w-4"/>
-                                        </a>
+                                        <div className="w-4"/>
                                     }
                                 </td>
                                 <td className='py-2 text-tiny font-bold text-center bg-marca-verdeclarito'>{intg.Correo}</td>
