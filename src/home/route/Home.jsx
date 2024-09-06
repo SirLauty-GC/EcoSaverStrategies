@@ -2,6 +2,8 @@ import React from 'react';
 import { CuadroInformacionHome } from '../components/CuadroInformacionHome.jsx';
 import { LideresCubos } from '../components/LideresCubos.jsx';
 import { InfoConsumo } from '../components/InfoConsumo.jsx';
+import InstaPublicacion from '../components/InstaPublicacion.jsx';
+import InstaPublicacionDos from '../components/InstaPublicacionDos.jsx';
 function home() {
     return(
         <>
@@ -24,6 +26,13 @@ function home() {
                 <div className='pt-12'>
                     <h3 className='text-4xl text-center sm:text-left lg:text-5xl font-medium text-marca-verdeoscuro'>Consumo eléctrico Mendoza 2022</h3>
                     <InfoConsumo/>
+                </div>
+                <div className='pt-12'>
+                    <h3 className='text-4xl text-center sm:text-left lg:text-5xl font-medium text-marca-verdeoscuro'>Nuestras redes</h3>
+                    <div className='pt-6 grid justify-center sm:grid-cols-2 sm:gap-4'>
+                        <InstaPublicacion/>
+                        <InstaPublicacionDos/>
+                    </div>
                 </div>
             </div>
         </>
