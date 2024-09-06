@@ -22,9 +22,8 @@ const InstagramEmbed = () => {
           boxShadow: "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)",
           margin: "1px",
           maxWidth: "540px",
-          minWidth: "326px",
-          padding: 0,
-          width: "calc(100% - 2px)"
+          minWidth: "272px",
+          padding: 0
         }}
       >
         <div style={{ padding: "16px" }}>
@@ -35,8 +34,7 @@ const InstagramEmbed = () => {
               lineHeight: 0,
               padding: 0,
               textAlign: "center",
-              textDecoration: "none",
-              width: "100%"
+              textDecoration: "none"
             }}
             target="_blank"
             rel="noopener noreferrer"

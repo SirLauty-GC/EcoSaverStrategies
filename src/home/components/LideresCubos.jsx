@@ -38,7 +38,7 @@ export const LideresCubos = ({ nombre = '' }) => {
                 <div className="service-icon w-20 h-20 bg-gray-100 rounded-full mx-auto flex items-center justify-center">
                     <img className="rounded-full" src={data.srcimg} alt={data.titulo} />
                 </div>
-                <h5 className="my-3 font-semibold text-lg">{data.titulo}</h5>
+                <h4 className="my-3 font-semibold text-lg">{data.titulo}</h4>
                 <p className="text-gray-600 pb-4">
                     {data.info}
                 </p>

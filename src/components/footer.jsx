@@ -46,7 +46,7 @@ function Footer(){
                         </div>
                         <div className='mt-2'>
                             <a className="text-white text-lg md:no-underline" href="https://www.mendoza.gov.ar/economia/mendoza-futura-2024/" target="_blank">
-                                <img className="w-24 h-5" src= {'images/logos/LogosConectadosMendozaFutura.webp'} alt="Conectados por Mendoza Futura"></img>
+                                <img className="w-24 h-[18px]" src= {'images/logos/LogosConectadosMendozaFutura.webp'} alt="Conectados por Mendoza Futura"></img>
                             </a>
                         </div>
                     </div>
